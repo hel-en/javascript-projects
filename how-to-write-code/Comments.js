@@ -1,12 +1,24 @@
    // This demo shows off comments!
 
-   // console.log("This does not print.");
+   console.log("This does print.");
 
-   console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
+   //console.log("Hello, World!"); // 
+   
+   console.log ("Comments do not have to start at the beginning of a line.")
 
-   /* Here is how
+   /* 
+   
+   Here is how
    to have
    multi-line
    comments. */
 
-   console.log("Comments make your code more readable by others.");
+   // Comments make your code more readable by others.")
+
+   /*
+   - Add two slashes for comments on a single line.
+   - Add one slash followed by an asterisk to start a multi-line comment.
+   - Close multi-line comments with an asterisk followed by a slash.
+   */
+
+   //Easy peasy!
