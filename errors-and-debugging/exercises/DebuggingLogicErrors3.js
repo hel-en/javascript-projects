@@ -26,9 +26,19 @@ if (crewStatus && computerStatus === 'green'){
    launchReady = false;
 }
 
+console.log(launchReady);
+
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+/*
+added another `console.log(launchReady);` at line 29
+prints as `true`
+This makes sense based on the code provided, but does not make sense since the fuel is insufficient.
+Program is behaving as expected it is only necessary to evaluate crewStatus and computerStatus here.
+Need to include && statement to include fuelLevel?
+*/

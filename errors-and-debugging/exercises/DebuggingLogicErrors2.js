@@ -17,6 +17,8 @@ if (fuelLevel >= 20000) {
    launchReady = false;
 }
 
+console.log(launchReady)
+
 // if (crewStatus && computerStatus === 'green'){
 //    console.log('Crew & computer cleared.');
 //    launchReady = true;
@@ -31,3 +33,10 @@ if (fuelLevel >= 20000) {
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+
+/*
+added console.log(launchReady) at line 20
+reads as false at this point.
+That's good and what is expected.
+*/

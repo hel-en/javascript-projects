@@ -35,3 +35,15 @@ console.log("launchReady = ", launchReady);
 // } else {
 //    console.log('Launch scrubbed.');
 // }
+
+/*
+Although the output:
+
+`WARNING: Insufficient fuel!
+launchReady =  false
+Crew & computer cleared.
+launchReady =  true`
+
+makes sense based on the code provided in the second block,
+it does not make sense for the launch to be ready with insufficient fuel
+*/

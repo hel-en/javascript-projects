@@ -30,3 +30,13 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+/* 
+Should the shuttle launch?
+based on the initial variables, no.
+
+Did it?
+Yes, despite having insufficient fuel
+
+! did not alter code 
+*/
