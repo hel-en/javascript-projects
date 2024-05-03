@@ -86,7 +86,6 @@ if (weatherStatus === "clear") {
 // Verify shuttle launch can proceed based on above conditions
 
 if(preparedForLiftOff = true) {
-    <hr>
     console.log("Date: " + date);
     console.log("Time: " + time);
     console.log('Astronaut Count: ' + astronautCount);
@@ -96,7 +95,6 @@ if(preparedForLiftOff = true) {
     console.log("Total Mass: " + totalMassKg + " kg");
     console.log("Fuel Temperature: " + fuelTempCelsius + " °C");
     console.log("Weather Status: " + weatherStatus);
-    <hr>
     console.log("All systems go! Have a safe flight!");
 } else {
     console.log("Abort Launch!");
@@ -106,6 +104,8 @@ if(preparedForLiftOff = true) {
 
 
 /*
+First attempt LOL:
+
 if (astronautCount <= 7) {
     console.log(astronautCount, crewMassKg);
 } else if (totalMassKg <= maximumMassLimit) {
@@ -117,8 +117,7 @@ if (astronautCount <= 7) {
 } else {
     console.log("Shut down operations.")
 }
-*/   
-
+*/
 
 /*
 if (astronautCount <= 7) {
