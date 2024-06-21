@@ -12,7 +12,7 @@ let launchcode = {
         return "Code Rocks!";
     }
     if (num % 2 === 0 && num % 5 === 0) {
-        return "Launch Rocks!";
+        return "Launch Rocks! (CRASH!!!!)";
     }
     if (num % 2 === 0) {
         return "Launch!";

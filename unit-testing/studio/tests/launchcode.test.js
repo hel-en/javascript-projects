@@ -1,6 +1,10 @@
 // launchcode.test.js code:
 const launchcode = require('../index.js');
 
+// let launchcodeTests = {
+//   test1: "organization returns 'nonprofit'"
+// }
+
 describe("Testing launchcode", function(){
   // Write your unit tests here!
 test("should return 'nonprofit' for organization key", () => {
@@ -32,7 +36,7 @@ test("launchOutput() should return 'LaunchCode!' when number is divisble by 2 an
  })
 
  test("launchOutput() should return 'Launch Rocks!' when number is divisble by 2 and 5", () => {
-  expect(launchcode.launchOutput(10)).toBe("Launch Rocks!");
+  expect(launchcode.launchOutput(10)).toBe("Launch Rocks! (CRASH!!!!)");
  })
 
  test("launchOutput() should return 'LaunchCode Rocks!' when number is divisble by 2, 3, & 5", () => {
@@ -53,6 +57,5 @@ test("programsOffered contains 3 items: 'Web Development', 'Data Analysis', and 
   expect(launchcode.programsOffered.includes("Liftoff")).toBe(true);
   expect(launchcode.programsOffered.length).toBe(3);
 })
-
 
 });
